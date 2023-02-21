@@ -1,6 +1,5 @@
 const mqtt = require('mqtt')
-// broker = mqtt://test.mosquitto.org
-const client = mqtt.connect('mqtt://test.mosquitto.org')
+const client = mqtt.connect('url')
 
 client.on('connect', function () {
     console.log('Connected')
